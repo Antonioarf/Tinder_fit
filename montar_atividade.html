@@ -9,45 +9,53 @@
 	</head>
 	<body>
 		<header class ="header" >
-			
-			<span class ="fav" > ☆ </span>
-            <span class = "nome_esporte">FUTEBOl </span> <!-- colocar o js pra puxar qual o esporte --> 
+			<a class ="logo" href= > <!-- insira nesse href o link dessa mesma pagina, pra ficar como botao devoltar ao inicio -->
+            	<img src= "assets/img/menu_icone.jpg" alt= "Ícone menu">
+            	Tinder Fit
+            </a>
+            <a class = "perfil" href= "perfil.html" >
+          		<img class="foto_perfil" src= >
+        	</a>
         </header>
 
         <main>
+        	<h1 class ="fav" > ☆ </h1>
+            <h1 class = "nome_esporte">FUTEBOl </h1> <!-- colocar o js pra puxar qual o esporte --> 
+        	
         	<ul class = "escolha">
+        	</br>
         		<li class= "tipo_escolha"><span a class = "qqo" > Local*: </span>
-        			<ul class=  "locais" style="list-style-type:circle;"> <!-- colocar esse style no css -->
-					<input type="checkbox" name="local" value="ibira"> Ibira <br>
-        				<input type="checkbox" name="local" value="villa"> Villa<br>
-        				<input type="checkbox" name="local" value="p do povo"> P. do Polvo <br>
+        			<ul class=  "locais" > 
+						<input class ="item_local" type="checkbox" name="local" value="ibira"> Ibira <br>
+        				<input class ="item_local" type="checkbox" name="local" value="villa"> Villa<br>
+        				<input class ="item_local" type="checkbox" name="local" value="p do povo"> P. do Polvo <br>
         			</ul>
         		</li>
-
+        		</br>
         		<li class= "tipo_escolha"><span a class = "qqo" > Horario*: </span>
         			<ul class=  "dias da semana" > 
-        				<input type="checkbox" name="day" value="domingo"  unchecked> D<br>
-        				<input type="checkbox" name="day" value="segunda" unchecked> S<br>
-        				<input type="checkbox" name="day" value="terca" unchecked> T <br>
-        				<input type="checkbox" name="day" value="quarta" unchecked> Q <br>
-        				<input type="checkbox" name="day" value="quinta" unchecked> Q <br>
-        				<input type="checkbox" name="day" value="sexta" unchecked> S <br>
-        				<input type="checkbox" name="day" value="sabado" unchecked> S <br>
+        				<input class = "dia" type="checkbox" name="day" value="domingo"  unchecked> D </input>
+        				<input class = "dia" type="checkbox" name="day" value="segunda" unchecked> S </input>
+        				<input class = "dia" type="checkbox" name="day" value="terca" unchecked> T  </input>
+        				<input class = "dia" type="checkbox" name="day" value="quarta" unchecked> Q  </input>
+        				<input class = "dia" type="checkbox" name="day" value="quinta" unchecked> Q  </input>
+        				<input class = "dia" type="checkbox" name="day" value="sexta" unchecked> S  </input>
+        				<input class = "dia" type="checkbox" name="day" value="sabado" unchecked> S  </input>
 
         			</ul>
 
-        		<span>Que horas comecamos:</span> <br />
+        		<span>Que horas comecamos:</span>
   				<input type="time" name="usr_time"> <br />
-  				<span>Que horas terminamos:</span>  <br />
+  				<span>Que horas terminamos:</span>
   				<input type="time" name="usr_time">  <br />
         		</li>
-
+        		</br>
         		<li class= "tipo_escolha"><span a class = "qqo" > Praticar com*: </span>
         			<ul class=  "locais"> <!-- colocar esse style no css -->
-						<input type="checkbox" name="day" value="domingo" unchecked> D<br>
-        				<input type="checkbox" name="day" value="segunda" unchecked> S<br>
-        				<input type="checkbox" name="day" value="terca" unchecked> T <br>
-        				<input type="checkbox" name="day" value="quarta" unchecked> Q <br>
+						<input class= "quem" type="checkbox" name="quem" value="prof" unchecked> Professor <br>
+        				<input class= "quem" type="checkbox" name="quem" value="amigos" unchecked> Chamar amigos<br>
+        				<input class= "quem" type="checkbox" name="quem" value="Mgen" unchecked> Meu Genero <br>
+        				<input class= "quem" type="checkbox" name="quem" value="Mfe" unchecked> Minha faixa etaria <br>
         			</ul>
         		</li>
         	</ul>
@@ -60,10 +68,3 @@
 	</body>
 </html>
 <!--         			
-<li class= "dias"> D </li>
-<li class= "dias"> S </li>
-<li class= "dias"> T </li>
-<li class= "dias"> Q </li>
-<li class= "dias"> Q </li>
-<li class= "dias"> S </li>
-<li class= "dias"> S </li>

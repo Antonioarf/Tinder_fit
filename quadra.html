@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang= "pt-br">
 	<head>
-		<title>criar jogo</title>
+		<title>reservar quadra</title>
 		<meta charset= "utf-8">
 		<link href= "assets/css/reset.css" rel= "stylesheet">
 		<!-- links e outros arquivos importados -->
 	</head>
 	<body>
 		<header class ="header" >
+			<a class ="logo" href= > <!-- insira nesse href o link dessa mesma pagina, pra ficar como botao devoltar ao inicio -->
+            	<img src= "assets/img/menu_icone.jpg" alt= "Ícone menu">
+            	Tinder Fit
+            </a>
+            <a class = "perfil" href= "perfil.html" >
+          		<img class="foto_perfil" src= >
+        	</a>
 			
-			<span class ="fav" > ☆ </span>
-			<h1> Quadras para: </h1> </br>
-            <h1 class = "nome_esporte">FUTEBOl </h1> <!-- colocar o js pra puxar qual o esporte --> 
         </header>
 
         <main>
-        	
+			
+			<h1> Quadras para: </h1> </br>
+            <h1 class = "nome_esporte">FUTEBOl </h1> <!-- colocar o js pra puxar qual o esporte --> 
+			<h1 class ="fav" > ☆ </h1>
+        	<ul class= "tipo" >
+        		<input class="item1" type="radio" name="tipo" value="publico"> Publica </br>
+        		<input class="item1" type="radio" name="tipo" value="privado"> Particular </br>
+    		</ul> </br>
+    		<ul class=  "locais" > 
+				<input class = "item2" type="checkbox" name="local" value="ibira" > Ibira </br>
+				<input class = "item2" type="checkbox" name="local" value="villa"> Villa </br>
+				<input class = "item2" type="checkbox" name="local" value="p do povo"> P. do Polvo </br>
+			</ul>
 
-
-
+		<h1> <a class = "gerar" href= "feed.html"> GERAR FEED </a></h1>
 
         </main> 	
 	</body>
