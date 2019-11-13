@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+	<head>
+		<title>{{titulo}}</title>
+		<meta charset= "utf-8">
+		<link href= "assets/css/reset.css" rel= "stylesheet">
+		<!-- links e outros arquivos importados -->
+	</head>
+	<body>
+		<header class ="header" >
+			
+			<a class ="logo" href= > <!-- insira nesse href o link dessa mesma pagina, pra ficar como botao devoltar ao inicio -->
+            	<img src= "assets/img/menu_icone.jpg" alt= "Ícone menu">
+            	Tinder Fit
+            </a>
+            <a class = "perfil" >
+          		<img class="foto_perfil" src= >
+        	</a>
+				<!-- nao coloquei nada dentro do perfil pq acho q vai ser outra tela, e nao um sidebar -->
+        </header>
+
+        <main>
+        	<section class = "tipos_de_eventos">
+        		<ul class = "opções">
+       		
+              		<li class= "item"><a a class = "link_" href= "agenda.html"> Agenda </a></li>
+              		
+              		<li class= "item"><a class = "nome_item">Procurar Jogo </a></li>
+						<ul class = "Esportes">
+							<!-- Essa parte pelo menos precisa de um jason/firebase -->
+							<li class= "tipo_esporte">
+								<a class="nome_esporte" href= "montar_atividade.html?atv={{@key}}"> Futebol </a></li>
+							<li class= "tipo_esporte">
+								<a class="nome_esporte" href= "montar_atividade.html?atv={{@key}}"> Volei </a></li>
+							<li class= "tipo_esporte">
+								<a class="nome_esporte" href= "montar_atividade.html?atv={{@key}}"> Basquete </a></li>
+							<li class= "tipo_esporte">
+								<a class="nome_esporte" href= "montar_atividade.html?atv={{@key}}"> Rugby </a></li>
+							<li class= "tipo_esporte">
+								<a class="nome_esporte" href= "montar_atividade.htmll?atv={{@key}}"> etc </a></li>
+						</ul>
+
+	        		<li class= "item"> <a class="link" href= "categoria.html?key={{../catid}}">  </a>
+	        		</li>
+	        	</ul>
+	       	
+			</section>
+
+		</main>
+	</body>
+</html>
+
+<!--
+<ul class = "Esportes">
+<li class= "tipo_esporte"><a class="nome_esporte"> </a></li>
+</ul>
