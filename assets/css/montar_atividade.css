@@ -4,4 +4,42 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.fav{
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 0.5rem;
+}
+
+.nome_esporte{
+	display: flex;
+	justify-content: center;
+	margin: 0.5rem;
+}
+
+.tipo_escolha{
+	margin-bottom: 1rem;
+}
+
+.escolha{
+	display: flex;
+	flex-direction: column;
+	margin: 0.5rem;
+}
+
+.qqo{
+	margin-bottom: 0.5rem;
+}
+
+.item_local{
+	margin-bottom: 0.5rem;
+}
+
+.dias_da_semana{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
 }

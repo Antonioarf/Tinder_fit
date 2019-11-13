@@ -5,26 +5,25 @@
 		<meta charset= "utf-8">
 		<link href= "assets/css/reset.css" rel= "stylesheet">
         <link href= "assets/css/montar_atividade.css" rel= "stylesheet">
-		<!-- links e outros arquivos importados -->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
 	</head>
 	<body>
 		<header class ="header" >
-			<a class ="logo" href= > <!-- insira nesse href o link dessa mesma pagina, pra ficar como botao devoltar ao inicio -->
-            	<img src= "assets/img/menu_icone.jpg" alt= "Ícone menu">
-            	Tinder Fit
-            </a>
             <a class = "perfil" href= "perfil.html" >
-          		<img class="foto_perfil" src= >
-        	</a>
+                <img class="foto_perfil" src="assets/img/pic_perfil.jpg" alt= "foto perfil" >
+            </a>         
+            <a class ="logo" href= > 
+                <img src= "assets/img/menu_icone.jpg" alt= "Ícone menu">
+                Tinder Fit
+            </a>
         </header>
-
         <main>
         	<h1 class ="fav" > ☆ </h1>
-            <h1 class = "nome_esporte">FUTEBOl </h1> <!-- colocar o js pra puxar qual o esporte --> 
+            <h1 class = "nome_esporte">FUTEBOL </h1> <!-- colocar o js pra puxar qual o esporte --> 
         	
         	<ul class = "escolha">
         	</br>
-        		<li class= "tipo_escolha"><span a class = "qqo" > Local*: </span>
+        		<li class= "tipo_escolha"><p class = "qqo" > Local: </p>
         			<ul class=  "locais" > 
 						<input class ="item_local" type="checkbox" name="local" value="ibira"> Ibira <br>
         				<input class ="item_local" type="checkbox" name="local" value="villa"> Villa<br>
@@ -32,8 +31,8 @@
         			</ul>
         		</li>
         		</br>
-        		<li class= "tipo_escolha"><span a class = "qqo" > Horario*: </span>
-        			<ul class=  "dias da semana" > 
+        		<li class= "tipo_escolha"><p class = "qqo" > Horario: </p>
+        			<ul class=  "dias_da_semana" > 
         				<input class = "dia" type="checkbox" name="day" value="domingo"  unchecked> D </input>
         				<input class = "dia" type="checkbox" name="day" value="segunda" unchecked> S </input>
         				<input class = "dia" type="checkbox" name="day" value="terca" unchecked> T  </input>
