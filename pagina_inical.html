@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang= "pt-br">
 	<head>
-		<title>{{titulo}}</title>
+		<title>inicio</title>
 		<meta charset= "utf-8">
 		<link href= "assets/css/reset.css" rel= "stylesheet">
 		<!-- links e outros arquivos importados -->
@@ -13,7 +13,7 @@
             	<img src= "assets/img/menu_icone.jpg" alt= "Ícone menu">
             	Tinder Fit
             </a>
-            <a class = "perfil" >
+            <a class = "perfil" href= "perfil.html" >
           		<img class="foto_perfil" src= >
         	</a>
 				<!-- nao coloquei nada dentro do perfil pq acho q vai ser outra tela, e nao um sidebar -->
@@ -23,24 +23,41 @@
         	<section class = "tipos_de_eventos">
         		<ul class = "opções">
        		
-              		<li class= "item"><a a class = "link_" href= "agenda.html"> Agenda </a></li>
+              		<li class= "item"><a a class = "nome_item" href= "agenda.html"> Agenda </a></li>
               		
-              		<li class= "item"><a class = "nome_item">Procurar Jogo </a></li>
+              		<li class= "item"><span class = "nome_item">Procurar Jogo </span>
 						<ul class = "Esportes">
 							<!-- Essa parte pelo menos precisa de um jason/firebase -->
 							<li class= "tipo_esporte">
-								<a class="nome_esporte" href= "montar_atividade.html?atv={{@key}}"> Futebol </a></li>
+								<a class="nome_esporte" href= "montar_atividade.html?atv=fut"> Futebol </a></li>
 							<li class= "tipo_esporte">
-								<a class="nome_esporte" href= "montar_atividade.html?atv={{@key}}"> Volei </a></li>
+								<a class="nome_esporte" href= "montar_atividade.html?atv=volei"> Volei </a></li>
 							<li class= "tipo_esporte">
-								<a class="nome_esporte" href= "montar_atividade.html?atv={{@key}}"> Basquete </a></li>
+								<a class="nome_esporte" href= "montar_atividade.html?atv=basq"> Basquete </a></li>
 							<li class= "tipo_esporte">
-								<a class="nome_esporte" href= "montar_atividade.html?atv={{@key}}"> Rugby </a></li>
+								<a class="nome_esporte" href= "montar_atividade.html?atv=rugby"> Rugby </a></li>
 							<li class= "tipo_esporte">
-								<a class="nome_esporte" href= "montar_atividade.htmll?atv={{@key}}"> etc </a></li>
+								<a class="nome_esporte" href= "montar_atividade.htmll?atv=etc"> etc </a></li>
 						</ul>
+					</li>
 
-	        		<li class= "item"> <a class="link" href= "categoria.html?key={{../catid}}">  </a>
+	        		<li class= "item"> <a class="nome_item"> Procurar Quadra </a>
+	        			<ul class = "Esportes">
+							<li class= "tipo_esporte">
+								<a class="nome_esporte" href= "quadra.html?atv=fut"> Futebol </a></li>
+							<li class= "tipo_esporte">
+								<a class="nome_esporte" href= "quadra.html?atv=volei"> Volei </a></li>
+							<li class= "tipo_esporte">
+								<a class="nome_esporte" href= "quadra.html?atv=basq"> Basquete </a></li>
+							<li class= "tipo_esporte">
+								<a class="nome_esporte" href= "quadra.html?atv=rugby"> Rugby </a></li>
+							<li class= "tipo_esporte">
+								<a class="nome_esporte" href= "quadra.htmll?atv=etc"> etc </a></li>
+						</ul>
+	        		</li>
+
+	        		<li class= "item"> <span class="nome_item"> 36h and GO </span>
+	        			<!-- Preciso das fotos do celia pra fazer -->
 	        		</li>
 	        	</ul>
 	       	

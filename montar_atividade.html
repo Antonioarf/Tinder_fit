@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+	<head>
+		<title>criar jogo</title>
+		<meta charset= "utf-8">
+		<link href= "assets/css/reset.css" rel= "stylesheet">
+		<!-- links e outros arquivos importados -->
+	</head>
+	<body>
+		<header class ="header" >
+			
+			<span class ="fav" > ☆ </span>
+            <span class = "nome_esporte">FUTEBOl </span> <!-- colocar o js pra puxar qual o esporte --> 
+        </header>
+
+        <main>
+        	<ul class = "escolha">
+        		<li class= "tipo_escolha"><span a class = "qqo" > Local*: </span>
+        			<ul class=  "locais" style="list-style-type:circle;"> <!-- colocar esse style no css -->
+						<input type="radio" name="local" value="ibira"> Ibira <br>
+        				<input type="radio" name="local" value="villa"> Villa<br>
+        				<input type="radio" name="local" value="p do povo"> P. do Polvo <br>
+        			</ul>
+        		</li>
+
+        		<li class= "tipo_escolha"><span a class = "qqo" > Horario*: </span>
+        			<ul class=  "dias da semana" > 
+        				<input type="checkbox" name="day" value="domingo"  unchecked> D<br>
+        				<input type="checkbox" name="day" value="segunda" unchecked> S<br>
+        				<input type="checkbox" name="day" value="terca" unchecked> T <br>
+        				<input type="checkbox" name="day" value="quarta" unchecked> Q <br>
+        				<input type="checkbox" name="day" value="quinta" unchecked> Q <br>
+        				<input type="checkbox" name="day" value="sexta" unchecked> S <br>
+        				<input type="checkbox" name="day" value="sabado" unchecked> S <br>
+
+        			</ul>
+
+        		<span>Que horas comecamos:</span> <br />
+  				<input type="time" name="usr_time"> <br />
+  				<span>Que horas terminamos:</span>  <br />
+  				<input type="time" name="usr_time">  <br />
+        		</li>
+
+        		<li class= "tipo_escolha"><span a class = "qqo" > Praticar com*: </span>
+        			<ul class=  "locais"> <!-- colocar esse style no css -->
+						<input type="checkbox" name="day" value="domingo" unchecked> D<br>
+        				<input type="checkbox" name="day" value="segunda" unchecked> S<br>
+        				<input type="checkbox" name="day" value="terca" unchecked> T <br>
+        				<input type="checkbox" name="day" value="quarta" unchecked> Q <br>
+        			</ul>
+        		</li>
+        	</ul>
+        <h1> <a class = "gerar" href= "feed.html"> GERAR FEED </a></h1>
+
+
+
+
+        </main> 	
+	</body>
+</html>
+<!--         			
+<li class= "dias"> D </li>
+<li class= "dias"> S </li>
+<li class= "dias"> T </li>
+<li class= "dias"> Q </li>
+<li class= "dias"> Q </li>
+<li class= "dias"> S </li>
+<li class= "dias"> S </li>
