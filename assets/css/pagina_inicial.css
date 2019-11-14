@@ -3,7 +3,7 @@
 .header{
 	display: flex;
 	justify-content: space-between;
-	background-color: gold;
+	background-color: #01DFD7;
 	height: 4rem;
 }
 
@@ -20,7 +20,7 @@
 .opções{
 	flex-grow: 1;
 	display: flex;
-	background-color: orange;
+	background-color: #FF8000;
 	flex-direction: column;
 	justify-content: center;
 	justify-content: space-evenly;
@@ -30,7 +30,7 @@
 .item{
 	display: flex;
 	align-content: space-between;
-	background-color: red;
+	background-color: #04B4AE;
 	height: 8rem;
 	border-radius: 1.3rem;
 	margin-left: 0.5rem;
@@ -47,3 +47,8 @@
 	display: none;
 }
 
+.foto_item{
+	width: 80px;
+    height: 80px;
+    margin-top: 1.5rem;
+}
