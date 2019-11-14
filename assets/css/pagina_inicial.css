@@ -3,7 +3,7 @@
 .header{
 	display: flex;
 	justify-content: space-between;
-	background-color: #01DFD7;
+	background-color: #aed5d6;
 	height: 4rem;
 }
 
@@ -20,7 +20,7 @@
 .opções{
 	flex-grow: 1;
 	display: flex;
-	background-color: #FF8000;
+	background-color: #69bfbf;
 	flex-direction: column;
 	justify-content: center;
 	justify-content: space-evenly;
@@ -30,7 +30,7 @@
 .item{
 	display: flex;
 	align-content: space-between;
-	background-color: #04B4AE;
+	background-color: #5196a6;
 	height: 8rem;
 	border-radius: 1.3rem;
 	margin-left: 0.5rem;

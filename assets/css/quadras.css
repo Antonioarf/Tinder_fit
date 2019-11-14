@@ -1,0 +1,8 @@
+/*quadras*/
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	background-color: #aed5d6;
+	height: 4rem;
+}
