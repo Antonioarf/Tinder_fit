@@ -4,20 +4,20 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: 0.5rem;
+	margin: 1rem;
 	margin-bottom: 1rem;
 }
 
 .fav{
 	display: flex;
 	flex-direction: row-reverse;
-	margin: 0.5rem;
+	margin: 1rem;
 }
 
 .nome_esporte{
 	display: flex;
 	justify-content: center;
-	margin: 0.5rem;
+	margin: 1rem;
 }
 
 .tipo_escolha{
@@ -27,7 +27,7 @@
 .escolha{
 	display: flex;
 	flex-direction: column;
-	margin: 0.5rem;
+	margin: 1rem;
 }
 
 .qqo{
@@ -41,5 +41,19 @@
 .dias_da_semana{
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+
+.hr{
+	margin-left: 1rem;
+	margin-bottom: 0.7rem;
+}
+
+.quem{
 	margin-bottom: 0.5rem;
+}
+
+.gerar{
+	display: flex;
+	justify-content: center;
 }
