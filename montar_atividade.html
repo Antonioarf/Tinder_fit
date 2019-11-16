@@ -17,29 +17,40 @@
                 Tinder Fit
             </a>
         </header>
-        <main>
-        	<h1 class ="fav" > ☆ </h1>
-            <h1 class = "nome_esporte">FUTEBOL </h1> <!-- colocar o js pra puxar qual o esporte --> 
+        
+        <main class="main">
+            <div class="top">
+                <h1 class = "nome_esporte">FUTEBOL </h1> <!-- colocar o js pra puxar qual o esporte --> 
+                <h1 class ="fav" > ☆ </h1>
+            </div> 
         	
         	<ul class = "escolha">
-        	</br>
         		<li class= "tipo_escolha"><p class = "qqo" > Local: </p>
         			<ul class=  "locais" > 
-						<input class ="item_local" type="checkbox" name="local" value="ibira"> Ibirapuera <br>
-        				<input class ="item_local" type="checkbox" name="local" value="villa"> Pinheiros <br>
-        				<input class ="item_local" type="checkbox" name="local" value="p do povo"> Butanta <br>
+                        <div class='locais_'>
+    						<input class ="item_local" type="checkbox" name="local" value="ibira"> <h1 class="name_item">Ibirapuera </h1> 
+                            <br>
+                        </div>    
+                        <div class='locais_'>
+            				<input class ="item_local" type="checkbox" name="local" value="villa"> <h1 class="name_item">Pinheiros </h1>
+                            <br>
+                        </div>
+                        <div class='locais_'>
+            				<input class ="item_local" type="checkbox" name="local" value="p do povo"> <h1 class="name_item"> Butanta </h1> 
+                            <br>
+                        </div>
         			</ul>
         		</li>
         		</br>
         		<li class= "tipo_escolha"><p class = "qqo" > Horario: </p>
         			<ul class=  "dias_da_semana" > 
-        				<input class = "dia" type="checkbox" name="day" value="domingo"  unchecked> D </input>
-        				<input class = "dia" type="checkbox" name="day" value="segunda" unchecked> S </input>
-        				<input class = "dia" type="checkbox" name="day" value="terca" unchecked> T  </input>
-        				<input class = "dia" type="checkbox" name="day" value="quarta" unchecked> Q  </input>
-        				<input class = "dia" type="checkbox" name="day" value="quinta" unchecked> Q  </input>
-        				<input class = "dia" type="checkbox" name="day" value="sexta" unchecked> S  </input>
-        				<input class = "dia" type="checkbox" name="day" value="sabado" unchecked> S  </input>
+        				<input class = "dia" type="checkbox" name="day" value="domingo"  unchecked> <h1 class="day">D </h1></input>
+        				<input class = "dia" type="checkbox" name="day" value="segunda" unchecked> <h1 class="day">S </h1></input>
+        				<input class = "dia" type="checkbox" name="day" value="terca" unchecked> <h1 class="day">T </h1></input>
+        				<input class = "dia" type="checkbox" name="day" value="quarta" unchecked> <h1 class="day">Q </h1></input>
+        				<input class = "dia" type="checkbox" name="day" value="quinta" unchecked> <h1 class="day">Q </h1></input>
+        				<input class = "dia" type="checkbox" name="day" value="sexta" unchecked> <h1 class="day">S </h1></input>
+        				<input class = "dia" type="checkbox" name="day" value="sabado" unchecked> <h1 class="day">S </h1></input>
 
         			</ul>
 
@@ -50,11 +61,23 @@
         		</li>
         		</br>
         		<li class= "tipo_escolha"><p a class = "qqo" > Praticar com*: </p>
-        			<ul class=  "locais"> <!-- colocar esse style no css -->
-						<input class= "quem" type="checkbox" name="quem" value="prof" unchecked> Professor <br>
-        				<input class= "quem" type="checkbox" name="quem" value="amigos" unchecked> Chamar amigos<br>
-        				<input class= "quem" type="checkbox" name="quem" value="Mgen" unchecked> Meu Genero <br>
-        				<input class= "quem" type="checkbox" name="quem" value="Mfe" unchecked> Minha faixa etaria <br>
+        			<ul class=  "locais">
+                        <div class="locais_"> <!-- colocar esse style no css -->
+    						<input class= "quem" type="checkbox" name="quem" value="prof" unchecked>  <h1 class="name_item">Professor</h1>
+                            <br>
+                        </div>
+                        <div class="locais_">
+            				<input class= "quem" type="checkbox" name="quem" value="amigos" unchecked> <h1 class="name_item"> Chamar amigos</h1>
+                            <br>
+                        </div>
+                        <div class="locais_">
+            				<input class= "quem" type="checkbox" name="quem" value="Mgen" unchecked>  <h1 class="name_item">Meu Genero </h1>
+                            <br>
+                        </div>
+                        <div class="locais_">
+            				<input class= "quem" type="checkbox" name="quem" value="Mfe" unchecked> <h1 class="name_item"> Minha faixa etaria </h1>
+                            <br>
+                        </div>
         			</ul>
         		</li>
         	</ul>

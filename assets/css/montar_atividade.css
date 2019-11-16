@@ -4,19 +4,16 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: 1rem;
-	margin-bottom: 1rem;
+	background-color: #aed5d6;
+	height: 4rem;
 }
 
-.fav{
+.top{
 	display: flex;
-	flex-direction: row-reverse;
-	margin: 1rem;
-}
-
-.nome_esporte{
-	display: flex;
+	background-color: #69bfbf;
+	flex-direction: row;
 	justify-content: center;
+	font-size: 1.5rem;
 	margin: 1rem;
 }
 
@@ -32,10 +29,26 @@
 
 .qqo{
 	margin-bottom: 0.5rem;
+	display: flex;
+	font-size: 1.5rem;
+	margin: 1rem;
 }
 
 .item_local{
 	margin-bottom: 0.5rem;
+}
+.locais_{
+	display: flex;
+	flex-direction: row;
+}
+
+.name_item{
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem; 
+}
+
+.day{
+	font-size: 1.2rem;
 }
 
 .dias_da_semana{
@@ -55,5 +68,9 @@
 
 .gerar{
 	display: flex;
+	background-color: #5196a6;
+	height: 2rem;
 	justify-content: center;
+	margin: 1rem;
+	align-items: center;
 }
