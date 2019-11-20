@@ -6,6 +6,7 @@
 		<link href= "assets/css/reset.css" rel= "stylesheet">
         <link href= "assets/css/montar_atividade.css" rel= "stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="assets/js/geral.js"></script>
 	</head>
 	<body>
 		<header class ="header" >
@@ -20,7 +21,7 @@
                 
             </header>
         
-        <main class="main">
+        <form class="main" action="feed.html">
             <div class="top">
                 <h1 class = "nome_esporte">FUTEBOL </h1> <!-- colocar o js pra puxar qual o esporte --> 
                 <h1 class ="fav" > ☆ </h1>
@@ -38,7 +39,7 @@
                             <br>
                         </div>
                         <div class='locais_'>
-            				<input class ="item_local" type="checkbox" name="local" value="p do povo"> <h1 class="name_item"> Butanta </h1> 
+            				<input class ="item_local" type="checkbox" name="local" value="p_do_povo"> <h1 class="name_item"> Butanta </h1> 
                             <br>
                         </div>
         			</ul>
@@ -83,8 +84,9 @@
         			</ul>
         		</li>
         	</ul>
-        <h1> <a class = "gerar" href= "feed.html"> GERAR FEED </a></h1>
+		 <h1>
+		 <input type="submit" class = "gerar" value="GERAR FEED"></input></h1>
         
-        </main> 	
+        </form> 	
 	</body>
 </html>
