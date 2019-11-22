@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log(params);
   console.log(jogo);
 
-coDesReplace('.top', context)
+coDesReplace('.nome_esporte', jogo)
 
 
 // // document.addEventListener('DOMContentLoaded', function() {
