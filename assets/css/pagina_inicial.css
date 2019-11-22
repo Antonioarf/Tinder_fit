@@ -7,6 +7,7 @@
 	background-color: #000000;
 	height: 5rem;
 }
+
 .logo_{
 	margin-top: 0;
 	height: 67px;
@@ -18,7 +19,6 @@
 	width: 50px;
 	border-radius: 1.5rem;
 	margin: 1rem;
-
 }
 
 .conteiner{
@@ -55,6 +55,7 @@
 	margin-top: 3.5rem;
 	margin-left: 0.5rem;
 	font-size: 1.5rem;
+	text-decoration: none;
 }
 
 .Esportes{
