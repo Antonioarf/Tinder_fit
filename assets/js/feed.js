@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log(dia);
 
   
-Math.floor(Math.random() * 10);
+// Math.floor(Math.random() * 10);
   //   coDesReplace('.app_menu', data)
     
   //   context = data['portfolio'][value]
