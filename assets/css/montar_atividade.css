@@ -81,9 +81,9 @@
 
 .gerar{
 	display: flex;
+	justify-content: center;
 	background-color: #5196a6;
 	height: 2rem;
-	justify-content: center;
 	margin: 1rem;
-	align-items: center;
+
 }
