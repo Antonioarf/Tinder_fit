@@ -4,23 +4,42 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-color: #000000;
+	background-color: #bb1b1b;
 	height: 5rem;
+}
+
+.fundo{
+	background-color: #000000; 
 }
 
 .top{
 	display: flex;
-	background-color: #69bfbf;
+	background-color: #bb1b1b;
+	border-radius: 1.5rem;
 	flex-direction: row;
 	justify-content: center;
 	font-size: 1.5rem;
+	font-family: 'Convergence', sans-serif;
 	margin: 1rem;
+}
+
+.nome_esporte{
+	color: #ffffff;
+}
+
+.fav{
+	color: #ffffff;
 }
 
 .logo_{
 	margin-top: 0;
 	height: 67px;
 	width: 145px;
+}
+
+.tipo{
+	font-family: 'Convergence', sans-serif;
+	margin-top: 2rem;
 }
 
 .foto_perfil{
@@ -30,22 +49,22 @@
 	margin: 1rem;
 }
 
-.tipo{
-	margin: 1rem;
-}
-
 .locais{
 	display: flex;
 	flex-direction: column;
+	margin-left: 0.4rem;
+	font-family: 'Convergence', sans-serif;
 }
 
 .gerar{
-	display: flex;
-	background-color: #5196a6;
+	background-color: #cc0000;
 	height: 2rem;
-	justify-content: center;
 	margin: 1rem;
-	align-items: center;
+	font-family: 'Convergence', sans-serif;
+}
+
+.gerar_{
+	text-align: center;
 }
 
 .tipo_{
@@ -53,13 +72,22 @@
 	flex-direction: row;
 
 }
+
+.tipo_1{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0.8rem;
+}
+
 .name_item1{
 	font-size: 1.3rem;
 	margin-bottom: 0.7rem; 
+	color: #ffffff;
 }
 
 .name_item2{
 	font-size: 1.3rem;
+	color: #ffffff;
 }
 
 .lugar{
@@ -67,6 +95,12 @@
 	font-size: 1.5rem;
 	margin-bottom: 0.5rem;
 	margin: 1rem;
+	color: #ffffff;
+	font-size: 2rem;
+}
+
+.item1{
+	color: #ffffff;
 }
 
 .item2{
