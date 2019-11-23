@@ -4,7 +4,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-color: #000000;
+	background-color: #5CBECF;
 	height: 5rem;
 }
 
@@ -34,7 +34,7 @@
 .opções{
 	flex-grow: 1;
 	display: flex;
-	background-color: #33c0e8;
+	background-color: #42433E;
 	flex-direction: column;
 	justify-content: center;
 	justify-content: space-evenly;
@@ -44,7 +44,7 @@
 .item{
 	display: flex;
 	align-content: space-between;
-	background-color: #38fff6;
+	background-color: #5CBECF;
 	height: 5rem;
 	border-radius: 1.3rem;
 	margin-left: 0.5rem;
@@ -54,7 +54,7 @@
 .item1{
 	display: flex;
 	align-content: space-between;
-	background-color: #38fff6;
+	background-color: #5CBECF;
 	height: 5rem;
 	border-radius: 1.3rem;
 	margin-left: 0.5rem;
@@ -66,7 +66,7 @@
 .item2{
 	display: flex;
 	align-content: space-between;
-	background-color: #38fff6;
+	background-color: #5CBECF;
 	height: 5rem;
 	margin-bottom: 2rem;
 	border-radius: 1.3rem;
@@ -79,8 +79,8 @@
 .item_1{
 	display: none;
 	align-content: space-between;
-	background-color: #FFFFFF;
-	height: 4rem;
+	background-color: #D62565;
+	height: 4.6rem;
 	margin-top: 0;
 	margin-left: 0.5rem;
 	margin-right:0.5rem;
@@ -91,8 +91,8 @@
 .item_2{
 	display: none;
 	align-content: space-between;
-	background-color: #FFFFFF;
-	height: 2.5rem;
+	background-color: #D62565;
+	height: 4.6rem;
 	margin-top: 0;
 	margin-left: 0.5rem;
 	margin-right:0.5rem;
@@ -100,6 +100,18 @@
 
 ._item_{
 	display: flex;
+}
+
+.Esportes{
+	display: flex;
+	justify-content: center;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+
+.sport1{
+	margin-right: 0.5rem;
+
 }
 
 .nome_item{
