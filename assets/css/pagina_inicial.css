@@ -59,6 +59,7 @@
 	border-radius: 1.3rem;
 	margin-left: 0.5rem;
 	margin-right:0.5rem;
+	margin-bottom: 2rem;
 	flex-direction: column;
 }
 
@@ -67,6 +68,7 @@
 	align-content: space-between;
 	background-color: #38fff6;
 	height: 5rem;
+	margin-bottom: 2rem;
 	border-radius: 1.3rem;
 	margin-left: 0.5rem;
 	margin-right:0.5rem;
@@ -78,17 +80,19 @@
 	display: none;
 	align-content: space-between;
 	background-color: #FFFFFF;
-	height: 5rem;
+	height: 4rem;
 	margin-top: 0;
 	margin-left: 0.5rem;
 	margin-right:0.5rem;
+	flex-direction: row;
+
 }
 
 .item_2{
 	display: none;
 	align-content: space-between;
 	background-color: #FFFFFF;
-	height: 5rem;
+	height: 2.5rem;
 	margin-top: 0;
 	margin-left: 0.5rem;
 	margin-right:0.5rem;
@@ -96,7 +100,6 @@
 
 ._item_{
 	display: flex;
-	flex-direction: row;
 }
 
 .nome_item{
@@ -118,6 +121,12 @@
 	margin-left: 0.5rem;
 	font-size: 1.5rem;
 	text-decoration: none;
+}
+
+.tipo_esporte{
+	display: flex;
+	justify-content: center;
+	
 }
 
 .foto_item{
