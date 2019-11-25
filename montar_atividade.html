@@ -22,9 +22,9 @@
                 
             </header>
         
-        <form class="main" action="feed.html">
+        <form class="main" action="feed.html">  
             <div class="top">
-                <h1 class = "nome_esporte">FUTEBOL </h1> <!-- colocar o js pra puxar qual o esporte --> 
+                <h1 id="demo" class = "nome_esporte"> jogo </h1> <!-- colocar o js pra puxar qual o esporte --> 
                 <h1 class ="fav" > ☆ </h1>
             </div> 
         	
@@ -32,7 +32,7 @@
         		<li class= "tipo_escolha"><p class = "qqo" > Local: </p>
         			<ul class=  "locais" > 
                         <div class='locais_'>
-    						<input class ="item_local" type="checkbox" name="onde" value="ibira"> <h1 class="name_item">Ibirapuera </h1> 
+    						<input  class ="item_local" type="checkbox" name="onde" value="ibira"> <h1 class="name_item">Ibirapuera </h1> 
                             <br>
                         </div>    
                         <div class='locais_'>
@@ -40,7 +40,7 @@
                             <br>
                         </div>
                         <div class='locais_'>
-            				<input class ="item_local" type="checkbox" name="onde" value="p_do_povo"> <h1 class="name_item"> Butanta </h1> 
+            				<input class ="item_local" type="checkbox" name="onde" value="Parque do Povo"> <h1 class="name_item"> Butanta </h1> 
                             <br>
                         </div>
         			</ul>
@@ -61,7 +61,7 @@
         		<span>Que horas comecamos:</span>
   				<input type="time" name="hora" class="hr"> <br />
   				<span>Que horas terminamos:</span>
-  				<input type="time" name="hora">  <br />
+  				<input type="time" name="hora_fim">  <br />
         		</li>
         		</br>
         		<li class= "tipo_escolha"><p a class = "qqo" > Praticar com*: </p>
@@ -86,7 +86,7 @@
         		</li>
         	</ul>
 		 <h1>
-		 <input type="submit" class = "gerar" value="GERAR FEED"></input></h1>
+		 <input type="submit"  onclick= "myFunction()" class = "gerar" value="GERAR FEED"></input></h1>
         
         </form> 	
 	</body>
