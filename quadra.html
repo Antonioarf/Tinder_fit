@@ -8,6 +8,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet"> 
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <script src="assets/js/geral.js"></script>
+        <script src="assets/js/quadra.js"></script>
 	</head>
 
 	<body class="fundo">
@@ -23,35 +24,37 @@
 	            
 	        </header>
 
-        <form class="main">
+        <form class="main" action="feed1.html">
 			<div class="top">
-            	<h1 class = "nome_esporte">FUTEBOL</h1> <!-- colocar o js pra puxar qual o esporte --> 
+            	<h1 id="demo" class = "nome_esporte">jogo</h1> <!-- colocar o js pra puxar qual o esporte --> 
 				<h1 class ="fav" >☆</h1>
 			</div>
 			
-        	<ul class= "tipo" >
+        	<ul class= "tipo">
         		<h1 class="lugar">Tipo de quadra: </h1> </br>
         		<div class="tipo_1">
-	        		<input class="item1" type="radio" name="oque" value="publico"> <h1 class="name_item1">Publica</h1>
+	        		<input class="item1" type="radio" name="oque" value="publicas"> <h1 class="name_item1">Publica</h1>
 	        		</br>
 	        	</div>
 	        	<div class="tipo_1">
-        			<input class="item1" type="radio" name="oque" value="privado"> <h1 class="name_item1">Particular</h1>
+        			<input class="item1" type="radio" name="oque" value="privadas"> <h1 class="name_item1">Particular</h1>
         			</br>
         		</div>
+    		
+
     		</ul> </br>
     		<ul class=  "locais" > 
     			<h1 class="lugar"> Local: </h1>
     			<div class="tipo_">
-					<input class = "item2" type="checkbox" name="onde" value="ibira" > <h1 class="name_item2">Ibirapuera</h1>
+					<input class = "item2" type="checkbox" name="onde1" value="Pinheiros"> <h1 class="name_item2">Pinheiros</h1>
 					</br>
 				</div>
 				<div class="tipo_">
-					<input class = "item2" type="checkbox" name="onde" value="villa"> <h1 class="name_item2"> Pinheiros</h1>
+					<input class = "item2" type="checkbox" name="onde2" value="Murumbi"> <h1 class="name_item2"> Murumbi</h1>
 					</br>
 				</div>
 				<div class="tipo_">
-					<input class = "item2" type="checkbox" name="onde" value="p_do_povo"><h1 class="name_item2"> Butanta </h1>
+					<input class = "item2" type="checkbox" name="onde3" value="Butanta"><h1 class="name_item2"> Butanta </h1>
 					</br>
 				</div>
 			</ul>
