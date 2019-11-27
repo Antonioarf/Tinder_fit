@@ -4,13 +4,17 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-color: #000000;
+	background-color: #5cbecf;
 	height: 5rem;
+}
+
+.main{
+	background-color: #42433e;
 }
 
 .top{
 	display: flex;
-	background-color: #69bfbf;
+	background-color: #5cbecf;
 	flex-direction: row;
 	justify-content: center;
 	font-size: 1.5rem;
@@ -32,6 +36,8 @@
 
 .tipo_escolha{
 	margin-bottom: 1rem;
+	font-family: 'Red Hat Text', sans-serif;
+	color: #FFFFFF;
 }
 
 .escolha{
@@ -48,7 +54,7 @@
 }
 
 .item_local{
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.5rem; 
 }
 .locais_{
 	display: flex;
