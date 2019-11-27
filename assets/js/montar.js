@@ -7,11 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // // var inputEmail= document.getElementById("email");
 // // localStorage.setItem("email", inputEmail.value);
-function myFunction2() {
-  var str = document.getElementById("demo").innerHTML; 
-  var res = str.replace("jogo", params['atv']);
-  document.getElementById("demo").innerHTML = res;
+
+function myFunction2(ide, texto, variavel) {
+  var str = document.getElementById(ide).innerHTML; 
+  var res = str.replace(texto,variavel);
+  document.getElementById(ide).innerHTML = res;
 }
-	myFunction2()
+  myFunction2("demo","jogo", params['atv'])
 
 })

@@ -1,4 +1,4 @@
-<!DOCTYPE html>s
+<!DOCTYPE html>
 <html lang= "pt-br">
 	<head>
 		<title>feed</title>
@@ -12,19 +12,39 @@
 	</head>
 	<body>
 		<div class= "container">
-			<h1 class= "atividade" id ="atv"> futebol </h1>
-			<h2 class = "pessoas"> Você e + <span id = "quantos"> x </span> pessoas </h2>
-			<h2 class = "parque" id='onde'> onde </h2>
-			<h3 class = "quadra"> Quadra: <span id= "quadra"> y </span> as: <span id="hora"> hora </span> </h3>
-		</div>
-		<div class= "container">
-			<h1 class= "atividade" id ="atv1"> futebol </h1>
-			<h2 class = "pessoas"> Você e + <span id = "quantos1"> x </span> pessoas </h2>
-			<h2 class = "parque" id='onde1'> onde </h2>
-			<h3 class = "quadra"> Quadra: <span id= "quadra1"> y </span> as: <span id="hora1"> hora </span> </h3>
-		</div>
+			<header class ="header" >
+				<a class = "perfil" href= "perfil.html" >
+	                <img class="foto_perfil" src="assets/img/pic_perfil.jpg" alt= "foto perfil" >
+	            </a>      
+					<!-- nao coloquei nada dentro do perfil pq acho q vai ser outra tela, e nao um sidebar -->
+				
+				<a class ="logo" href= "pagina_inical.html"> <!-- insira nesse href o link dessa mesma pagina, pra ficar como botao devoltar ao inicio -->
+	            	<img class="logo_" src= "assets/img/menu_icone.png" alt= "Ícone menu">
+	            </a>
+	            
+	        </header>
+	        <div class="top">
+				<h1 class= "atividade" id ="atv"> futebol </h1>
+			</div>
+
+			<div class="ativ">
+				<div class="ativ1">
+					<h2 class = "pessoas"> Você e + <span id = "quantos"> x </span> pessoas </h2>
+					<h2 class = "parque" id='onde'> onde </h2>
+					<h3 class = "quadra"> Quadra: <span id= "quadra"> y </span> as: <span id="hora"> hora </span> </h3>
+				</div>
+
+				<div class="ativ2">
+					<h2 class = "pessoas"> Você e + <span id = "quantos1"> x </span> pessoas </h2>
+					<h2 class = "parque" id='onde1'> onde </h2>
+					<h3 class = "quadra"> Quadra: <span id= "quadra1"> y </span> as: <span id="hora1"> hora </span> </h3>
+				</div>
+			</div>
+		
 				<!-- Trigger/Open The Modal -->
-		<button id="myBtn">Refresh</button>
+			<button class="botao" id="myBtn">Refresh</button>
+
+		</div>
 
 		<!-- The Modal -->
 		<div id="myModal" class="modal">
