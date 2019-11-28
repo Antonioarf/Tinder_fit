@@ -85,15 +85,27 @@
 .ativ1{
   margin-bottom: 1rem;
   font-size: 1.3rem;
+  font-family: 'Red Hat Text', sans-serif;
+  color: #FFFFFF
 }
 
 .ativ2{
   margin-bottom: 1rem;
   font-size: 1.3rem;
+  font-family: 'Red Hat Text', sans-serif;
+  color: #FFFFFF
 }
 
 .grafico{
   height: 100px;
   width: 300px;
   justify-content: center;
+}
+
+.back_feed1{
+  background-color: #42433e;
+}
+
+.button{
+  background-color: #D62565;
 }
