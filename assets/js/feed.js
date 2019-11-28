@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   let params = coDesExtract()
+  let atv = params['atv']
   let local = params['onde']
   let dia = params['quando']
   let pessoas = params['quem']
@@ -24,6 +25,7 @@ function myFunction2(ide, texto, variavel) {
   var res = str.replace(texto,variavel);
   document.getElementById(ide).innerHTML = res;
 }
+  myFunction2("atv","futebol",atv)
   myFunction2("quantos","x",Math.floor(Math.random() * 3))
   myFunction2("onde","onde",local)
   myFunction2("quadra","y",Math.floor(Math.random() * 8))
