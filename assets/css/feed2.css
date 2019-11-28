@@ -57,43 +57,59 @@
   margin: 1rem;
 }
 
-.top{
+.titulo{
   display: flex;
-  background-color: #69bfbf;
-  flex-direction: row;
   justify-content: center;
   font-size: 1.5rem;
   margin: 1rem;
+  color: #FFFFFF
 }
 
-.ativ{
-  display: flex;
-  flex-direction: column;
+.horario{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-family: 'Red Hat Text', sans-serif;
+  color: #FFFFFF
+
+}
+.horas{
+  margin-bottom: 0.5rem;
+}
+
+.local{
   margin: 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem; 
+  font-family: 'Red Hat Text', sans-serif;
+  color: #FFFFFF
+  font-size: 1.2rem;
 }
 
-.container{
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
+.loca{
+  font-size: 1.2rem;
+  color: #FFFFFF
+}
+.item{
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #FFFFFF
+}
+.body{
+  background-color: #42433e;
+}
+
+.botao{
+  font-family: 'Red Hat Text', sans-serif;
+  background-color: #D62565;
+  font-size: 1.2rem;
+  height: 2rem;
+  margin: 1rem;
+  width: 7rem;
+}
+
+.botao_{
   display: flex;
-  flex-direction: column;
-}
-
-.ativ1{
-  margin-bottom: 1rem;
-  font-size: 1.3rem;
-}
-
-.ativ2{
-  margin-bottom: 1rem;
-  font-size: 1.3rem;
-}
-
-.grafico{
-  height: 100px;
-  width: 300px;
   justify-content: center;
 }

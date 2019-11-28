@@ -17,5 +17,5 @@ function myFunction2(ide, texto, variavel) {
   document.getElementById(ide).innerHTML = res;
 }
   myFunction2("demo","jogo", d[params['atv']])
-
+  myFunction2("main","jogoo", params['atv'])
 })

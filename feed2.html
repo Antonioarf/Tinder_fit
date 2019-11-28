@@ -9,7 +9,7 @@
 		<script src="assets/js/geral.js"></script>
 		<script src="assets/js/feed2.js"></script>
 	</head>
-	<body>
+	<body class="body">
 		<div class= "container">
 			<header class ="header" >
 				<a class = "perfil" href= "perfil.html" >
@@ -22,23 +22,43 @@
 	            </a>
 	            
 	        </header>
+
 	        <hi class = 'titulo'> Alugel De Quadras:</hi>
+	        
 	        <div class = "horario">
-	        <h3>Que horas comecamos:</h3>
-      		<input type="time" name="hora" class="hr"> <br />
-     		<h3>Que horas terminamos:</h3>
-			<input type="time" name="hora_fim">  <br />
+		        <div class="horas">
+			        Que horas comecamos:
+		      		<input type="time" name="hora" class="hr"> <br />
+		      	</div>
+		      	<div class="horas">	
+		     		Que horas terminamos:</h3>
+					<input type="time" name="hora_fim">  <br />
+				</div>
 			</div>
 
-			<div class = "local">
-			<h2> Só Falta Escolher o local:</h2>
-			<input class="item1" type="radio" > <h1 class="name_item1">Playbol</h1>
-	        <input class="item1" type="radio" > <h1 class="name_item1">Anhemi TC</h1>
-        	<input class="item1" type="radio" > <h1 class="name_item1">ECP</h1>
+
+
+			<div class = "local"> <p class="loca"> Só Falta Escolher o local: </p>
+				<ul class="places">
+					<div class="item">
+						<input class="item1" type="radio"> 
+						Playbol
+					</div>
+					<div class="item">
+			        	<input class="item1" type="radio" > 
+			        	Anhembi TC
+			        <div class="item">
+		        		<input class="item1" type="radio" > 
+		        		ECP
+		        	</div>
+		        </ul>
+	        </div>
 
 	        
 				<!-- Trigger/Open The Modal -->
-			<button id="myBtn">Confirmar</button>
+			<h1 class="botao_">	<!-- Trigger/Open The Modal -->
+				<button class="botao" id="myBtn">Confirmar</button>
+			</h1>
 
 		</div>
 
