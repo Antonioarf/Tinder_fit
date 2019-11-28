@@ -26,7 +26,7 @@
             
             <form class="main" action="feed.html" id= "main">  
                 <div class="top"> 
-                     <h1 id="demo" class = "nome_esporte"> jogo </h1> <!-- colocar o js pra puxar qual o esporte --> 
+                     <h1 id="demo" class = "nome_esporte"> jogo </h1> 
                     <h1 class ="fav" > ☆ </h1>
                 </div> 
             	
@@ -42,13 +42,13 @@
                                 <br>
                             </div>
                             <div class='locais_'>
-                				<input class ="item_local" type="checkbox" name="onde" value="Parque do Povo"> <h1 class="name_item"> Butanta </h1> 
+                				<input class ="item_local" type="checkbox" name="onde" value="Parque do Povo"> <h1 class="name_item"> Butantã </h1> 
                                 <br>
                             </div>
             			</ul>
             		</li>
             		</br>
-            		<li class= "tipo_escolha"><p class = "qqo" > Horario: </p>
+            		<li class= "tipo_escolha"><p class = "qqo" > Horário: </p>
             			<ul class=  "dias_da_semana" > 
             				<input class = "dia" type="checkbox" name="quando" value="domingo"  unchecked> <h1 class="day">D </h1></input>
             				<input class = "dia" type="checkbox" name="quando" value="segunda" unchecked> <h1 class="day">S </h1></input>
@@ -60,13 +60,13 @@
 
             			</ul>
 
-            		<span>Que horas comecamos:</span>
+            		<span class="hr">Que horas começamos:</span>
       				<input type="time" name="hora" class="hr"> <br />
-      				<span>Que horas terminamos:</span>
-      				<input type="time" name="hora_fim">  <br />
+      				<span class="hr">Que horas terminamos:</span>
+      				<input type="time" name="hora_fim" class="hr">  <br />
             		</li>
             		</br>
-            		<li class= "tipo_escolha"><p a class = "qqo" > Praticar com*: </p>
+            		<li class= "tipo_escolha"><p a class = "qqo" > Praticar com: </p>
             			<ul class=  "locais">
                             <div class="locais_"> <!-- colocar esse style no css -->
         						<input class= "quem" type="checkbox" name="quem" value="prof" unchecked>  <h1 class="name_item">Professor</h1>
@@ -77,17 +77,17 @@
                                 <br>
                             </div>
                             <div class="locais_">
-                				<input class= "quem" type="checkbox" name="quem" value="Meu Genero" unchecked>  <h1 class="name_item">Meu Genero </h1>
+                				<input class= "quem" type="checkbox" name="quem" value="Meu Genero" unchecked>  <h1 class="name_item">Meu Gênero </h1>
                                 <br>
                             </div>
                             <div class="locais_">
-                				<input class= "quem" type="checkbox" name="quem" value="Minha faixa Etaria" unchecked> <h1 class="name_item"> Minha faixa etaria </h1>
+                				<input class= "quem" type="checkbox" name="quem" value="Minha faixa Etaria" unchecked> <h1 class="name_item"> Minha faixa etária </h1>
                                 <br>
                             </div>
             			</ul>
             		</li>
             	</ul>
-                <h1>
+                <h1 class="gerar_">
     		      <input type="submit"  class = "gerar" value="GERAR FEED"></input></h1>
                 </h1>
             </form> 
