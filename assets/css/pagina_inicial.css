@@ -50,6 +50,7 @@
 	margin-left: 0.5rem;
 	margin-right:0.5rem;
 	margin-bottom: 3.5rem;
+	font-family: 'Red Hat Text', sans-serif;
 }
 
 .item1{
@@ -85,6 +86,7 @@
 	margin-left: 0.5rem;
 	margin-right:0.5rem;
 	margin-bottom: 0.5rem;
+	font-family: 'Red Hat Text', sans-serif;
 }
 
 .item_1{
@@ -111,6 +113,7 @@
 
 ._item_{
 	display: flex;
+	font-family: 'Red Hat Text', sans-serif;
 }
 
 .Esportes{
