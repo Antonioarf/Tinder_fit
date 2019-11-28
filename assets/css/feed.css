@@ -59,11 +59,12 @@
 
 .top{
   display: flex;
-  background-color: #69bfbf;
+  background-color: #5CBECF;
   flex-direction: row;
   justify-content: center;
   font-size: 1.5rem;
   margin: 1rem;
+  font-family: 'Red Hat Text', sans-serif;
 }
 
 .ativ{
@@ -83,11 +84,23 @@
 }
 
 .ativ1{
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   font-size: 1.3rem;
+  color: #FFFFFF;
+  font-family: 'Red Hat Text', sans-serif;
 }
 
 .ativ2{
   margin-bottom: 1rem;
   font-size: 1.3rem;
+  color: #FFFFFF;
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+.back_feed{
+  background-color: #42433e;
+}
+
+.botao{
+  background-color: #D62565;
 }
