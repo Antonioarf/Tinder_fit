@@ -64,6 +64,7 @@
   justify-content: center;
   font-size: 1.5rem;
   margin: 1rem;
+  margin-top: 1.5rem;
   font-family: 'Red Hat Text', sans-serif;
 }
 
@@ -84,17 +85,46 @@
 }
 
 .ativ1{
+  display: flex;
+  flex-direction: column;
   margin-bottom: 5rem;
+  margin-top: 1.5rem;
+  margin-right: 0.5rem;
   font-size: 1.3rem;
   color: #FFFFFF;
   font-family: 'Red Hat Text', sans-serif;
+  background-color: #5CBECF;
+  border-radius: 3rem;
+}
+
+.pessoas{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2.3rem;
+}
+
+.parque{
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2.3rem;
+}
+
+.quadra{
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2.3rem;
 }
 
 .ativ2{
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  margin-right: 0.5rem;
   font-size: 1.3rem;
   color: #FFFFFF;
   font-family: 'Red Hat Text', sans-serif;
+  background-color: #5CBECF;
+  border-radius: 3rem;
 }
 
 .back_feed{

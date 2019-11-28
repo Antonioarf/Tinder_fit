@@ -4,6 +4,10 @@ function myFunction2(ide, texto, variavel) {
   document.getElementById(ide).innerHTML = res;
 }
 
+let d = {
+ 		'basquete': 'Basquete', 'futebol': 'Futebol', 'volei': 'Vôlei', 'rugby': "Rugby", 
+ 	}
+
 document.addEventListener('DOMContentLoaded', function() {
 
 
