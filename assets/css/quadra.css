@@ -15,20 +15,13 @@
 	flex-direction: row;
 	justify-content: center;
 	font-size: 1.5rem;
-	font-family: 'Red Hat Text', sans-serif;
+	font-family: 'Sorts Mill Goudy', serif;
 	margin: 1rem;
+	margin-top: 1.5rem;
 }
 
 .fundo{
 	background-color: #42433E;
-}
-
-.nome_esporte{
-	color: #FFFFFF;
-}
-
-.fav{
-	color: #FFFFFF;
 }
 
 .logo_{
@@ -102,6 +95,7 @@
 	margin: 1rem;
 	color: #ffffff;
 	font-size: 2rem;
+	font-weight: bold;
 }
 
 .item1{

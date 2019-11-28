@@ -70,6 +70,7 @@
   display: flex;
   flex-direction: column;
   margin: 1rem;
+  justify-content: center;
 }
 
 .container{
@@ -83,7 +84,7 @@
 }
 
 .ativ1{
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-size: 1.3rem;
   font-family: 'Red Hat Text', sans-serif;
   color: #FFFFFF
@@ -119,4 +120,13 @@
   display: flex;
   justify-content: center;
 
+}
+
+.parque{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.quadra{
+  margin-bottom: 0.7rem;
 }

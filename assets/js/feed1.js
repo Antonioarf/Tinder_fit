@@ -26,7 +26,7 @@ if (limpo.length == 2) {
   // myFunction2("tipo","tipo",tipo)
   myFunction2("quadra1","y",Math.floor(Math.random() * 8))
   myFunction2("quadra2","y",Math.floor(Math.random() * 8))
-  myFunction2('onde1','onde',d[limpo[1])
+  myFunction2('onde1','onde',limpo[1])
   myFunction2('onde2','onde',limpo[0])
 
 }
@@ -34,7 +34,7 @@ else if (limpo.length == 3){
     // myFunction2("tipo","tipo",tipo)
   myFunction2("quadra1","y",Math.floor(Math.random() * 8))
   myFunction2("quadra2","y",Math.floor(Math.random() * 8))
-  myFunction2('onde1','onde',d[limpo[1]])
+  myFunction2('onde1','onde',limpo[1])
   myFunction2('onde2','onde',limpo[2])
 }
 else {
