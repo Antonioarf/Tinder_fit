@@ -3,7 +3,11 @@ function myFunction2(ide, texto, variavel) {
   var res = str.replace(texto,variavel);
   document.getElementById(ide).innerHTML = res;
 }
-
+let params = coDesExtract()
+let tipo = params['oque']
+if (tipo == "privadas"){
+  window.location.href = 'feed2.html';
+}
 document.addEventListener('DOMContentLoaded', function() {
   let params = coDesExtract()
   let tipo = params['oque']
@@ -19,32 +23,26 @@ document.addEventListener('DOMContentLoaded', function() {
 console.log(limpo);
 
 if (limpo.length == 2) {
-    myFunction2("tipo","tipo",tipo)
+  // myFunction2("tipo","tipo",tipo)
   myFunction2("quadra1","y",Math.floor(Math.random() * 8))
   myFunction2("quadra2","y",Math.floor(Math.random() * 8))
-  myFunction2("quadra3","y",Math.floor(Math.random() * 8))
-  myFunction2('onde1','onde',limpo[0])
+  myFunction2('onde1','onde',limpo[1])
   myFunction2('onde2','onde',limpo[0])
-  myFunction2('onde3','onde',limpo[1])
 
 }
 else if (limpo.length == 3){ 
-    myFunction2("tipo","tipo",tipo)
+    // myFunction2("tipo","tipo",tipo)
   myFunction2("quadra1","y",Math.floor(Math.random() * 8))
   myFunction2("quadra2","y",Math.floor(Math.random() * 8))
-  myFunction2("quadra3","y",Math.floor(Math.random() * 8))
-  myFunction2('onde1','onde',limpo[0])
-  myFunction2('onde2','onde',limpo[1])
-  myFunction2('onde3','onde',limpo[2])
+  myFunction2('onde1','onde',limpo[1])
+  myFunction2('onde2','onde',limpo[2])
 }
 else {
-    myFunction2("tipo","tipo",tipo)
+    // myFunction2("tipo","tipo",tipo)
   myFunction2("quadra1","y",Math.floor(Math.random() * 8))
   myFunction2("quadra2","y",Math.floor(Math.random() * 8))
-  myFunction2("quadra3","y",Math.floor(Math.random() * 8))
   myFunction2('onde1','onde',limpo[0])
   myFunction2('onde2','onde',limpo[0])
-  myFunction2('onde3','onde',limpo[0])
 }
 
 

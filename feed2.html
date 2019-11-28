@@ -5,9 +5,9 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta charset= "utf-8">
 		<link href= "assets/css/reset.css" rel= "stylesheet">
-		<link href= "assets/css/feed1.css" rel= "stylesheet">
+		<link href= "assets/css/feed2.css" rel= "stylesheet">
 		<script src="assets/js/geral.js"></script>
-		<script src="assets/js/feed1.js"></script>
+		<script src="assets/js/feed2.js"></script>
 	</head>
 	<body>
 		<div class= "container">
@@ -22,21 +22,23 @@
 	            </a>
 	            
 	        </header>
-	        <div class="ativ">		
-				<div class="ativ1">
-					<h1 class = "parque" id='onde1'> onde </h1>
-					<h3 class = "quadra"> Quadra: <span id= "quadra1"> y </span></h3>
-					<img class="grafico" src="assets/img/grafico_lotacao1.jpg" alt= "grafico de lotacao da quadra" >
-				</div>
-				
-				<div class="ativ2">
-					<h1 class = "parque" id='onde2'> onde </h1>
-					<h3 class = "quadra"> Quadra: <span id= "quadra2"> y </span></h3>
-					<img class="grafico" src="assets/img/grafico_lotacao2.jpg" alt= "grafico de lotacao da quadra" >
-				</div>
+	        <hi class = 'titulo'> Alugel De Quadras:</hi>
+	        <div class = "horario">
+	        <h3>Que horas comecamos:</h3>
+      		<input type="time" name="hora" class="hr"> <br />
+     		<h3>Que horas terminamos:</h3>
+			<input type="time" name="hora_fim">  <br />
 			</div>
+
+			<div class = "local">
+			<h2> Só Falta Escolher o local:</h2>
+			<input class="item1" type="radio" > <h1 class="name_item1">Playbol</h1>
+	        <input class="item1" type="radio" > <h1 class="name_item1">Anhemi TC</h1>
+        	<input class="item1" type="radio" > <h1 class="name_item1">ECP</h1>
+
+	        
 				<!-- Trigger/Open The Modal -->
-			<button id="myBtn">Refresh</button>
+			<button id="myBtn">Confirmar</button>
 
 		</div>
 
@@ -45,9 +47,9 @@
 		  <!-- Modal content -->
 		  <div class="modal-content">
 		    <span class="close">&times;</span>
-		    <p>Só temos essas atividas por enquanto</p>
-		    <p>te avisaremos quando tivermos novos eventos</p>
-		    <p> Continue treinando</p>
+		    <p>Sua quadra esta reservada</p>
+		    <p>Caso nessario, eventuais pagamentos devem ser feitos no local</p>
+		    <a class = "perfil" href= "pagina_inical.html"> Voltar ao inicio </a>
 		  </div>
 
 		</div>
