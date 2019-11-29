@@ -57,30 +57,11 @@
   margin: 1rem;
 }
 
-.top{
-  display: flex;
-  background-color: #69bfbf;
-  flex-direction: row;
-  justify-content: center;
-  font-size: 1.5rem;
-  margin: 1rem;
-}
-
 .ativ{
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  margin: 1.5rem;
   justify-content: center;
-}
-
-.container{
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 .ativ1{
@@ -125,7 +106,7 @@
 
 .parque{
   margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
 }
 
 .quadra{
